@@ -1,0 +1,8 @@
+{
+    "normal_scale": 0.01,
+    "normal_outlier_scale": 0.2,
+    "cauchy_outlier_scale": 0.1,
+    "outside_outlier_scale": 1,
+    "cauchy_data_deviation_scale": 10,
+    "outside_data_deviation_scale": 10
+}

@@ -1,0 +1,34 @@
+include *.rst
+include LICENSE
+include unbalancedgw/__init__.py
+include *.png
+include requirements.txt
+
+recursive-include examples *.py
+recursive-include examples *.txt
+
+recursive-include unbalancedgw *.py
+
+### Exclude
+
+exclude Makefile
+exclude .coveragerc
+exclude .circleci/*
+exclude *.yml
+
+exclude dictionary.txt
+exclude .mailmap
+exclude examples/plot_planar_graph_match.py
+recursive-exclude unbalancedgw *.pyc
+
+recursive-exclude doc *
+recursive-exclude conic *
+recursive-exclude examples *.ipynb
+recursive-exclude examples/SCOT *
+recursive-exclude examples/code-meyer *
+recursive-exclude examples/output *
+recursive-exclude experiments_pu *
+
+
+exclude requirements.txt
+
